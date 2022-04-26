@@ -1,9 +1,9 @@
-true_and_missing<-c(TRUE,NA)#°Ñtrue_and_missing¸³ÖµÎªTRUEºÍNA
-false_and_missing<-c(FALSE,NA)#°Ñfalse_and_missing¸³ÖµÎªFALSEºÍNA
-mixed<-c(TRUE,FALSE,NA)# °Ñmixed¸³ÖµÎªTRUE¡¢FALSEºÍNA
-any(true_and_missing)#ÅÐ¶Ïtrue_and_missingÖÐÊÇ·ñÓÐÒ»¸öÎªTRUE
-all(true_and_missing)#ÅÐ¶Ïtrue_and_missingÖÐÊÇ·ñÈ«²¿ÎªTRUE
-any(false_and_missing)#ÅÐ¶Ïfalse_and_missingÖÐÊÇ·ñ´æÔÚFALSE
-all(false_and_missing)#ÅÐ¶Ïfalse_and_missingÖÐÊÇ·ñÈ«²¿ÎªFALSE
-any(mixed)#ÅÐ¶ÏmixedÖÐÊÇ·ñ´æÔÚT
+true_and_missing<-c(TRUE,NA)#æŠŠtrue_and_missingèµ‹å€¼ä¸ºTRUEå’ŒNA
+false_and_missing<-c(FALSE,NA)#æŠŠfalse_and_missingèµ‹å€¼ä¸ºFALSEå’ŒNA
+mixed<-c(TRUE,FALSE,NA)# æŠŠmixedèµ‹å€¼ä¸ºTRUEã€FALSEå’ŒNA
+any(true_and_missing)#anyå‡½æ•°
+all(true_and_missing)#allå‡½æ•°
+any(false_and_missing)
+all(false_and_missing)
+any(mixed)
 all(mixed)
